@@ -1,4 +1,5 @@
-﻿using ConsoleApp1.Lessons;
+﻿using ConsoleApp1.Assignments;
+using ConsoleApp1.Lessons;
 
 internal class Program
 {
@@ -14,7 +15,9 @@ internal class Program
         //L1SimpleVariables.Test();
         //L1Strings.Test();
         // L1Strings.ConcatenationTest();
-        L1Constructors.Test();
+        //L1Constructors.Test();
+        BookConstructors.Test();
+        BookConstructors.Test2();
 
     }
 }
