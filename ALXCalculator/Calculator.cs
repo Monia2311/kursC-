@@ -15,7 +15,7 @@
             Console.WriteLine("Choose opertion:");
             Console.WriteLine();
             var operationCharacterInfo = Console.ReadKey();
-            Console.Write("X number: ");
+            Console.Write("\nX number: ");
             var x = Double.Parse(Console.ReadLine());
             //var x = Int32.Parse(Console.ReadLine());    //x typu string parsujemy na int
             //var xInt=Int32.Parse(x);//konwrsja na typ int
