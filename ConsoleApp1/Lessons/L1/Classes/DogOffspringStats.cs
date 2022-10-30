@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp1.Lessons.Classes
+﻿namespace ConsoleApp1.Lessons.L1.Classes
 {
     public class DogOffspringStats
     {

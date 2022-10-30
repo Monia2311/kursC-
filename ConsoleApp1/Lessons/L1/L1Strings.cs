@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1.Lessons
+namespace ConsoleApp1.Lessons.L1
 {
     public class L1Strings
     {
-        public static void Test()
+        public static void Run()
         {
             string name = "Mateusz";
             Console.WriteLine(name);
@@ -36,9 +36,9 @@ namespace ConsoleApp1.Lessons
             string word1 = "Ala ma";
             string word2 = "koty dwa";
 
-            string concat1=word1+word2;
+            string concat1 = word1 + word2;
             Console.WriteLine(concat1);
-            string concat2=word2+" "+word1;
+            string concat2 = word2 + " " + word1;
             Console.WriteLine(concat2);
             //string interpolation
             string concat3 = $"{word1} {word2} i dobrze się ma";
