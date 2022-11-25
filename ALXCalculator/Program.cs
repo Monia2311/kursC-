@@ -1,7 +1,8 @@
 ﻿using ALXCalculator;
+using ALXCalculator.Interfaces;//trzeba dodać alt+enter po najechaniu na ICalculator
 
 Console.WriteLine("-- ALX CALCULATOR --");
-var calculator=new Calculator();
+ICalculator calculator = new Calculator();
 calculator.Run();
 
 Console.WriteLine("--------------------");
