@@ -71,7 +71,12 @@ Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Console.WriteLine();
 
 Console.WriteLine("**************CLASSES AND OBJECTS**************");
-ClassesAndObjects.Run();
+//ClassesAndObjects.Run();
+Console.WriteLine();
+Console.WriteLine("*********CLASSES AND OBJECTS - THE END**********");
+
+Console.WriteLine("**************SAY HELLO*************************");
+SayHello.Run();
 Console.WriteLine();
 Console.WriteLine("*********CLASSES AND OBJECTS - THE END**********");
 
